@@ -1,0 +1,474 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - loopback > express > finalhandler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > finalhandler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > finalhandler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > body-parser > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > body-parser > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > body-parser > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > serve-static > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > serve-static > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > serve-static > send > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:extend:20180424':
+    - node-etcd > request > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > extend:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:hoek:20180212':
+    - loopback > strong-remoting > request > hawk > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > hawk > boom > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > hawk > sntp > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > hawk > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > hawk > boom > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > hawk > sntp > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T20:21:01.704Z'
+  SNYK-JS-LODASH-567746:
+    - loopback > async > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > async > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > async > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > async > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > async > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:lodash:20180130':
+    - loopback-component-explorer > loopback-swagger > lodash:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:mime:20170907':
+    - loopback > express > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > serve-static > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > serve-static > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > serve-static > send > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > mime:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:ms:20170412':
+    - loopback > serve-favicon > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > body-parser > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > body-parser > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > finalhandler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > serve-static > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > body-parser > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > express > serve-static > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > finalhandler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > serve-static > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > express > serve-static > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > finalhandler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > serve-static > send > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > express > serve-static > send > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-boot > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-connector-mongodb > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback-component-explorer > loopback-swagger > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > loopback-datasource-juggler > loopback-connector > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > loopback-phase > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > strong-error-handler > strong-globalize > g11n-pipeline > swagger-client > superagent > debug > ms:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:stringstream:20180511':
+    - node-etcd > request > stringstream:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > stringstream:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > stringstream:
+        patched: '2022-10-07T20:21:01.704Z'
+  'npm:tough-cookie:20170905':
+    - node-etcd > request > tough-cookie:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > strong-remoting > request > tough-cookie:
+        patched: '2022-10-07T20:21:01.704Z'
+    - loopback > loopback-connector-remote > strong-remoting > request > tough-cookie:
+        patched: '2022-10-07T20:21:01.704Z'
