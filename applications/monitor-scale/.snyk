@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-10-08T19:36:33.200Z'
+    - express > finalhandler > debug:
+        patched: '2022-10-08T19:36:33.200Z'
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2022-10-08T19:36:33.200Z'
+    - node-etcd > request > extend:
+        patched: '2022-10-08T19:36:33.200Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2022-10-08T19:36:33.200Z'
+    - node-etcd > request > form-data > async > lodash:
+        patched: '2022-10-08T19:36:33.200Z'
+  'npm:ms:20170412':
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-10-08T19:36:33.200Z'
+    - express > finalhandler > debug > ms:
+        patched: '2022-10-08T19:36:33.200Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2022-10-08T19:36:33.200Z'
+    - node-etcd > request > stringstream:
+        patched: '2022-10-08T19:36:33.200Z'
+  'npm:tough-cookie:20170905':
+    - request > tough-cookie:
+        patched: '2022-10-08T19:36:33.200Z'
+    - node-etcd > request > tough-cookie:
+        patched: '2022-10-08T19:36:33.200Z'

@@ -4,7 +4,9 @@
   "description": "A service for updating the cache and emitting websocket events back to the frontend",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "git+https://github.com/kenzanlabs/kubernetes-ci-cd.git",
   "keywords": [
@@ -19,12 +21,14 @@
   },
   "homepage": "https://github.com/kenzanlabs/kubernetes-ci-cd#readme",
   "dependencies": {
-    "async": "2.2.0",
-    "body-parser": "1.17.1",
+    "async": "2.6.4",
+    "body-parser": "1.18.2",
     "cors": "2.8.3",
-    "express": "4.15.2",
-    "node-etcd": "5.0.3",
-    "request": "2.81.0",
-    "socket.io": "1.7.3"
-  }
+    "express": "4.16.0",
+    "node-etcd": "7.0.0",
+    "request": "2.88.0",
+    "socket.io": "3.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
